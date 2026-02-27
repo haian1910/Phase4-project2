@@ -1,6 +1,7 @@
 fastapi==0.115.0
 uvicorn==0.30.0
-transformers==4.44.0
+transformers==4.47.0
 pillow==10.4.0
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.4.0+cpu
+accelerate==0.34.0
+bitsandbytes==0.44.1
+torch==2.4.0
